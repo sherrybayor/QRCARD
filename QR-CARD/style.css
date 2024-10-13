@@ -1,0 +1,41 @@
+#card{
+    width: 50%;
+    border: 2px solid white;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+img{
+    width:95% ;
+    height: auto;
+    border-radius: 30px;
+    border: 4px solid lightskyblue;
+}
+body{
+    background-color:  hsl(212, 45%, 89%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: "Outfit", sans-serif;
+}
+@media only screen and (max-width: 375px) {
+    /* For desktop: */
+    #card{
+        width:100% ;
+    }
+    img{
+        width: 100%;
+    }
+  }
